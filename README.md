@@ -6,7 +6,6 @@ Steven G. Johnson at [EuroSciPy 2014](https://www.euroscipy.org/2014):
 
 ## Keynote: Crossing Language Barriers with Julia, Scipy, and IPython
 
-<blockquote>
 Julia ([julialang.org](http://julialang.org/)) is a new language
 targeted at scientific computing, which combines the high-level
 abstractions and dynamic interactivity of languages like Python with
@@ -19,7 +18,7 @@ ecosystem, both by making it easy to call Python code and also by
 exploiting infrastructure such as
 [IPython](http://ipython.org/)/[Jupyter](http://jupyter.org/).
 
-<p>This talk will begin with an introduction to the Julia language, both
+This talk will begin with an introduction to the Julia language, both
 explaining why it is able to attain C-like performance in many
 cases. At the same time, Julia supports a number of unusual
 programming features, such as multiple dispatch (a kind of
@@ -40,7 +39,7 @@ Julia can even use IPython 2's [interactive-widget
 infrastructure](https://github.com/JuliaLang/Interact.jl) to provide
 truly interactive computations.
 
-<p>Although most Julia–Python interaction is from Julia users calling
+Although most Julia–Python interaction is from Julia users calling
 Python, there is potential for benefits to flow in both directions in
 the future. The same PyCall software that allows Julia code to call
 Python can also [allow Python code to call
@@ -50,7 +49,6 @@ compiled to C-compatible interfaces—currently, this is mainly used to
 pass Julia callback routines to C library functions (including
 libpython), but in the future the same facility should allow the
 generation of C-callable libraries written in Julia.
-</blockquote>
 
 ## Slides and IJulia notebooks
 
@@ -58,6 +56,6 @@ To use the IJulia notebooks, you will need to download Julia and
 install IJulia: see the [IJulia installation
 instructions](https://github.com/JuliaLang/IJulia.jl#installation).
 
-* Slides in [PDF](https://github.com/stevengj/Julia-EuroSciPy14/raw/master/Julia%40EuroSciPy.pdf) and [PowerPoint (pptx)](https://github.com/stevengj/Julia-EuroSciPy14/raw/master/Julia%40EuroSciPy.pptx) formats.
+* Slides in [PDF](https://github.com/stevengj/Julia-EuroSciPy14/raw/master/Julia%40EuroSciPy.pdf) (4MB) and [PowerPoint (pptx)](https://github.com/stevengj/Julia-EuroSciPy14/raw/master/Julia%40EuroSciPy.pptx) (3.5MB) formats.
 
 * [IJulia tutorial notebook](http://nbviewer.ipython.org/github/stevengj/Julia-EuroSciPy14/blob/master/Overview.ipynb)
