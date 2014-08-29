@@ -19,7 +19,7 @@ ecosystem, both by making it easy to call Python code and also by
 exploiting infrastructure such as
 [IPython](http://ipython.org/)/[Jupyter](http://jupyter.org/).
 
-This talk will begin with an introduction to the Julia language, both
+<p>This talk will begin with an introduction to the Julia language, both
 explaining why it is able to attain C-like performance in many
 cases. At the same time, Julia supports a number of unusual
 programming features, such as multiple dispatch (a kind of
@@ -40,7 +40,7 @@ Julia can even use IPython 2's [interactive-widget
 infrastructure](https://github.com/JuliaLang/Interact.jl) to provide
 truly interactive computations.
 
-Although most Julia–Python interaction is from Julia users calling
+<p>Although most Julia–Python interaction is from Julia users calling
 Python, there is potential for benefits to flow in both directions in
 the future. The same PyCall software that allows Julia code to call
 Python can also [allow Python code to call
@@ -58,6 +58,6 @@ To use the IJulia notebooks, you will need to download Julia and
 install IJulia: see the [IJulia installation
 instructions](https://github.com/JuliaLang/IJulia.jl#installation).
 
-* Slides in [PDF](Julia@EuroSciPy.pdf) and [PowerPoint (pptx)](Julia@EuroSciPy.pptx) formats.
+* Slides in [PDF](https://github.com/stevengj/Julia-EuroSciPy14/raw/master/Julia%40EuroSciPy.pdf) and [PowerPoint (pptx)](https://github.com/stevengj/Julia-EuroSciPy14/raw/master/Julia%40EuroSciPy.pptx) formats.
 
 * [IJulia tutorial notebook](http://nbviewer.ipython.org/github/stevengj/Julia-EuroSciPy14/blob/master/Overview.ipynb)
